@@ -1,1 +1,8 @@
-This project is change the RGB image into 4 gray level image with run length encode also with the eroor defusion then the run length decoding is decode all the txt file with the same patteren of encode from the python image 
+This project focuses on converting RGB images into 4-level grayscale images using Floyd–Steinberg error diffusion dithering
+to preserve image details. After quantization, the images are compressed using Run-Length Encoding (RLE), 
+which reduces the storage size while retaining the essential visual information.
+
+On the decoding side, the RLE data is processed to reconstruct the grayscale images, and each pixel is
+mapped to an ASCII character using the same pattern as in the encoding process. The project automates the
+entire workflow, allowing multiple images to be encoded and decoded seamlessly, producing both
+compressed text files and human-readable ASCII representations.
